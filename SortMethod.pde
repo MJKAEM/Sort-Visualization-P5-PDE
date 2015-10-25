@@ -168,7 +168,10 @@ public abstract class SortMethod<E extends Sortable<E>>
 	/**
 	* Resets the entire sort.
 	*/
-	public abstract void reset();
+	public void reset()
+	{
+		resetTime();
+	}
 
 	public abstract String getSortName();
 

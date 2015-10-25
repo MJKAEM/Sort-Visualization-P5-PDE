@@ -95,8 +95,8 @@ public void keyReleased()
 
 	case '2':
 		reinitiateList();
-		//sortTypeBar = new SelectionSort<SortBar>(unsortedBarList);
-		//sortTypeLine = new SelectionSort<SortLine>(unsortedLineList);
+		sortTypeBar = new SelectionSort<SortBar>(unsortedBarList);
+		sortTypeLine = new SelectionSort<SortLine>(unsortedLineList);
 		break;
 
 	case '3':

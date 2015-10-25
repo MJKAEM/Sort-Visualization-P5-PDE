@@ -11,7 +11,7 @@ public class BubbleSort<E extends Sortable<E>> extends SortMethod<E>
 	public void show()
 	{
 		super.show();
-		
+
 		if (progress > -1)
 		{
 			if (lineMode)
@@ -68,7 +68,7 @@ public class BubbleSort<E extends Sortable<E>> extends SortMethod<E>
 
 	public void reset()
 	{
-		resetTime();
+		super.reset();
 
 		progress = getCurrentList().size();
 
