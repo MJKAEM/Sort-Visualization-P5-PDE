@@ -37,3 +37,5 @@ public abstract class Sortable<E extends Sortable<E>> implements Comparable<E>
 		this.numberValue = numberValue;
 	}
 }
+
+

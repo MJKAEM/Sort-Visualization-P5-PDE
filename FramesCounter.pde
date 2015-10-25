@@ -40,7 +40,6 @@ public class FramesCounter
 			}
 
 			fill(255);
-			textSize(12);
 
 			// text(fpsTimer, 100, 100); //debug
 			text(getCurrentFrames(), width - 20, height - 5);
@@ -83,3 +82,5 @@ public class FramesCounter
 		this.fpsTimer = fpsTimer;
 	}
 }
+
+

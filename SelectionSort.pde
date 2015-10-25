@@ -1,3 +1,8 @@
+/**
+* SelectionSort.pde
+*
+* Performs a visual representation of how Selection Sort works.
+*/
 public class SelectionSort<E extends Sortable<E>> extends SortMethod<E>
 {
 	private int progress, flag, scan;
@@ -157,4 +162,6 @@ public class SelectionSort<E extends Sortable<E>> extends SortMethod<E>
 	{
 		return "Selection Sort";
 	}
-};
+}
+
+

@@ -1,3 +1,8 @@
+/**
+* SortMethod.pde
+*
+* A blueprint for classes that render a visual representation of sort methods.
+*/
 public abstract class SortMethod<E extends Sortable<E>>
 {
 	private ArrayList<E> currentList;
@@ -229,3 +234,5 @@ public abstract class SortMethod<E extends Sortable<E>>
 		this.startTime = startTime;
 	}
 }
+
+

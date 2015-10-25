@@ -1,3 +1,8 @@
+/**
+* BubbleSort.pde
+*
+* Performs a visual representation of how Bubble Sort works.
+*/
 public class BubbleSort<E extends Sortable<E>> extends SortMethod<E>
 {
 	private int scan, progress;
@@ -167,3 +172,5 @@ public class BubbleSort<E extends Sortable<E>> extends SortMethod<E>
 		return this.scan;
 	}
 }
+
+

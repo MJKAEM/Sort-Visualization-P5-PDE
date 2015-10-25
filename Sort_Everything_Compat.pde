@@ -1,8 +1,8 @@
 /**
 * Sort_Everything_Compat.pde
 *
+* Displays various Sort methods using either bars or lines.
 */
-
 public static final int SCREEN_WIDTH = 480;
 public static final int SCREEN_HEIGHT = 360;
 public static final int MAX_NUMBER = SCREEN_HEIGHT - 60;
@@ -101,8 +101,8 @@ public void keyReleased()
 
 	case '3':
 		reinitiateList();
-		//sortTypeBar = new MergeSort<SortBar>(unsortedBarList);
-		//sortTypeLine = new MergeSort<SortLine>(unsortedLineList);
+		sortTypeBar = new MergeSort<SortBar>(unsortedBarList);
+		sortTypeLine = new MergeSort<SortLine>(unsortedLineList);
 		break;
 
 	default:
@@ -141,3 +141,5 @@ public void reinitiateList()
 		}
 	}
 }
+
+

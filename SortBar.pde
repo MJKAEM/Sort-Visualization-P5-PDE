@@ -23,3 +23,5 @@ public class SortBar extends Sortable<SortBar>
 		text("BOTTOM_HEIGHT: " + Sortable.BOTTOM_HEIGHT, 20, 80);*/
 	}
 }
+
+

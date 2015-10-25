@@ -4,16 +4,32 @@
 		"selected_items":
 		[
 			[
+				"Merg",
+				"MergeSort"
+			],
+			[
+				"Mer",
+				"MergeSort"
+			],
+			[
+				"Sele",
+				"SelectionSort"
+			],
+			[
+				"Blo",
+				"BLOCK_WIDTH"
+			],
+			[
+				"Sort",
+				"SortBar"
+			],
+			[
 				"frame",
 				"framesCounter"
 			],
 			[
 				"unso",
 				"unsortedLineList"
-			],
-			[
-				"Sort",
-				"SortLine"
 			],
 			[
 				"sort",
@@ -67,39 +83,7 @@
 			"file": "Sort_Everything_Compat.pde",
 			"settings":
 			{
-				"buffer_size": 2715,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "FramesCounter.pde",
-			"settings":
-			{
-				"buffer_size": 1263,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Sortable.pde",
-			"settings":
-			{
-				"buffer_size": 633,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "SortMethod.pde",
-			"settings":
-			{
-				"buffer_size": 4148,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "BubbleSort.pde",
-			"settings":
-			{
-				"buffer_size": 2488,
+				"buffer_size": 2740,
 				"line_ending": "Windows"
 			}
 		},
@@ -107,15 +91,71 @@
 			"file": "SortBar.pde",
 			"settings":
 			{
-				"buffer_size": 367,
+				"buffer_size": 639,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "FramesCounter.pde",
+			"settings":
+			{
+				"buffer_size": 1248,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Sortable.pde",
+			"settings":
+			{
+				"buffer_size": 678,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "SortMethod.pde",
+			"settings":
+			{
+				"buffer_size": 4393,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "SelectionSort.pde",
+			"settings":
+			{
+				"buffer_size": 2754,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "MergeSort.pde",
+			"settings":
+			{
+				"buffer_size": 5007,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "MergeSortPiece.pde",
+			"settings":
+			{
+				"buffer_size": 3533,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "BubbleSort.pde",
+			"settings":
+			{
+				"buffer_size": 2652,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "SortLine.pde",
 			"settings":
 			{
-				"buffer_size": 297,
+				"buffer_size": 345,
 				"line_ending": "Windows"
 			}
 		}
@@ -155,7 +195,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 104.0,
+		"height": 219.0,
 		"last_filter": "Package Control: instal",
 		"selected_items":
 		[
@@ -215,6 +255,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"setList",
+			"SortEve",
+			"setList",
+			"show_check",
+			"SortEve",
+			"getList",
+			"p.",
+			"getList()",
+			"sorteve",
+			"iscomple",
+			"iscom",
+			"p.",
+			"getList()",
+			"back"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -222,6 +276,12 @@
 		"regex": false,
 		"replace_history":
 		[
+			"setCurrentList",
+			"getCurrentList",
+			"",
+			"getCurrentList()",
+			"",
+			"getCurrentList()"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -232,7 +292,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -241,7 +301,36 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2715,
+						"buffer_size": 2740,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2740,
+								2740
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Processing/Syntaxes/Processing.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2130.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "SortBar.pde",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 639,
 						"regions":
 						{
 						},
@@ -254,31 +343,59 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Processing/Syntaxes/Processing.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Processing/Syntaxes/Processing.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 360.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "FramesCounter.pde",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1263,
+						"buffer_size": 1248,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								1263
+								638,
+								638
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Processing/Syntaxes/Processing.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 330.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Sortable.pde",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 678,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								678,
+								678
 							]
 						],
 						"settings":
@@ -290,53 +407,24 @@
 						"translation.y": 225.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "Sortable.pde",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 633,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								480,
-								480
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Processing/Syntaxes/Processing.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "SortMethod.pde",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4148,
+						"buffer_size": 4393,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								775,
-								718
+								4393,
+								4393
 							]
 						],
 						"settings":
@@ -345,83 +433,114 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3525.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "SelectionSort.pde",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2754,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2754,
+								2754
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Processing/Syntaxes/Processing.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2460.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "BubbleSort.pde",
+					"buffer": 6,
+					"file": "MergeSort.pde",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2488,
+						"buffer_size": 5007,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1881,
-								1881
+								5007,
+								5007
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Processing/Syntaxes/Processing.tmLanguage"
+							"syntax": "Packages/Processing/Syntaxes/Processing.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3757.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "SortBar.pde",
+					"buffer": 7,
+					"file": "MergeSortPiece.pde",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 367,
+						"buffer_size": 3533,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								3533,
+								3533
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Processing/Syntaxes/Processing.tmLanguage"
+							"syntax": "Packages/Processing/Syntaxes/Processing.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2730.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "SortLine.pde",
+					"buffer": 8,
+					"file": "BubbleSort.pde",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 297,
+						"buffer_size": 2652,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								297,
-								297
+								2652,
+								2652
 							]
 						],
 						"settings":
@@ -429,10 +548,39 @@
 							"syntax": "Packages/Processing/Syntaxes/Processing.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2430.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "SortLine.pde",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 345,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								345,
+								345
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Processing/Syntaxes/Processing.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": -0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
@@ -485,7 +633,7 @@
 	"project": "Sort_Everything_Compat.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":

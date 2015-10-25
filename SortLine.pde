@@ -17,3 +17,5 @@ public class SortLine extends Sortable<SortLine>
 		line(positionX, Sortable.BOTTOM_HEIGHT, positionX, Sortable.BOTTOM_HEIGHT - getNumberValue());
 	}
 }
+
+
