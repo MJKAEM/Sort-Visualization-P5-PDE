@@ -1,0 +1,20 @@
+{
+	"settings":
+	{
+		"AStyleFormatter":
+		{
+			"options_default":
+			{
+				"style": "allman"
+			},
+			"options_java":
+			{
+				"style": "allman"
+			},
+			"user_defined_syntax_mode_mapping":
+			{
+				"pde": "java"
+			}
+		}
+	}
+}

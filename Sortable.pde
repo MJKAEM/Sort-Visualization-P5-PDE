@@ -5,16 +5,18 @@
 */
 public abstract class Sortable<E extends Sortable<E>> implements Comparable<E>
 {
-	public static final int BOTTOM_HEIGHT = 480 - 30;
+	public static final int BOTTOM_HEIGHT = /* SCREEN_HEIGHT - 30; */360 - 30;
 
 	private int numberValue;
+
+	private Sortable() { }
 
 	protected Sortable(int numberValue)
 	{
 		this.numberValue = numberValue;
 	}
 
-	public abstract void show(int positionX);
+	public abstract void show(float positionX);
 
 	public int compareTo(E o)
 	{

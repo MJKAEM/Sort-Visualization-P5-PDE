@@ -5,13 +5,15 @@
 */
 public class SortLine extends Sortable<SortLine>
 {
+	private SortLine() { }
+
 	public SortLine(int numberValue)
 	{
 		super(numberValue);
 	}
 
-	public void show(int positionX)
+	public void show(float positionX)
 	{
-		line(positionX, BOTTOM_HEIGHT, positionX, BOTTOM_HEIGHT - getNumberValue());
+		line(positionX, Sortable.BOTTOM_HEIGHT, positionX, Sortable.BOTTOM_HEIGHT - getNumberValue());
 	}
 }
